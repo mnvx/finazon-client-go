@@ -1,0 +1,48 @@
+# IpoItem
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Currency** | **string** | The currency code of the security according to the ISO 4217 standard | [optional] [default to null]
+**Date** | **string** | Date when earnings are disbursed | [optional] [default to null]
+**DealStatus** | **string** | Activity tracked for the IPO status | [optional] [default to null]
+**Description** | **string** | Description | [optional] [default to null]
+**InitialFilingDate** | **string** | Initial filing date | [optional] [default to null]
+**InsiderLockupDate** | **string** | Date range that represents the insider lock up period | [optional] [default to null]
+**InsiderLockupDays** | **int64** | Amount of days for the insider lockup period | [optional] [default to null]
+**IpoType** | **string** | IPO type | [optional] [default to null]
+**LastYrIncome** | **float64** | Last year income | [optional] [default to null]
+**LastYrIncomeYear** | **float64** | Last year income | [optional] [default to null]
+**LastYrRevenue** | **float64** | Last year revenue | [optional] [default to null]
+**LastYrRevenueYear** | **float64** | Last year revenue | [optional] [default to null]
+**LeadUnderwriters** | **[]string** | Firm that lead the underwriting process | [optional] [default to null]
+**MarketCapAtOffer** | **float64** | Market cap at offer | [optional] [default to null]
+**Mic** | **string** | Market identifier code (MIC) under ISO 10383 standard | [optional] [default to null]
+**Name** | **string** | Full name of the instrument | [optional] [default to null]
+**Notes** | **string** | Notes | [optional] [default to null]
+**OfferingShares** | **float64** | Amount of shares being offered | [optional] [default to null]
+**OfferingSharesOrdAdr** | **float64** | Amount of ordinary shares being offered | [optional] [default to null]
+**OfferingValue** | **float64** | Number of shares being offered x price per share | [optional] [default to null]
+**OpenDateVerified** | **bool** | Indicates if the predicted date has been verified by the company | [optional] [default to null]
+**OrdSharesOutAfterOffer** | **float64** | Ordinary shares out after offer | [optional] [default to null]
+**OtherUnderwriters** | **[]string** | Additional firms that were a part of the underwriting | [optional] [default to null]
+**PriceMax** | **float64** | Maximum projected IPO price range | [optional] [default to null]
+**PriceMin** | **float64** | Minimum  projected IPO price range | [optional] [default to null]
+**PriceOpen** | **float64** | The opening price at the beginning of the first trading day (only available for priced IPOs) | [optional] [default to null]
+**PricePublicOffering** | **float64** | Public offering price | [optional] [default to null]
+**PricingDate** | **string** | Pricing date | [optional] [default to null]
+**RecordId** | **string** | Unique record ID from Benzinga | [optional] [default to null]
+**SecAccessionNumber** | **string** | SEC accession number | [optional] [default to null]
+**SecFilingUrl** | **string** | The IRL to the company&#x27;s S-1, S-1/A, F-1, or F-1/A SEC filing, which is required to be filed before an IPO takes place. | [optional] [default to null]
+**SharesOutstanding** | **float64** | Outstanding shares | [optional] [default to null]
+**Sic** | **float64** | SIC | [optional] [default to null]
+**SpacConvertedToTarget** | **bool** | ISs Spac converted to target | [optional] [default to null]
+**StateLocation** | **string** | State location | [optional] [default to null]
+**Ticker** | **string** | Ticker symbol of the instrument | [optional] [default to null]
+**Time** | **string** | Time when earnings are disbursed | [optional] [default to null]
+**UnderwriterQuietExpirationDate** | **string** | Date of expiration for the underwriter quiet period | [optional] [default to null]
+**UnderwriterQuietExpirationDays** | **int64** | Days of expiration for the underwriter quiet period | [optional] [default to null]
+**Updated** | **int64** | Last updated timestamp (UNIX) | [optional] [default to null]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
